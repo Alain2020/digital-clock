@@ -1,3 +1,4 @@
+from datetime import datetime
 from tkinter import *
 import tkinter
 import pyglet
@@ -26,7 +27,7 @@ def clock():
   l1.config(text=hour)
   l1.after(200, clock)
 
-l2.config(text=weekday + "" + str(day) +"/" +str(month) + "/" + (year))
+  l2.config(text=weekday + "" + str(day) +"/" +str(month) + "/" + (year))
 
 
 
